@@ -1,17 +1,28 @@
-# Higher Order Components
+# 🛍️ Store-Project
 
-- React içerisinde yer alan HOC(Higher Order Components) yapısı ile bileşenleri kod tekrarına düşmeden oluşturabiliriz.
+This e-commerce platform allows users to discover and filter products, add favorites, and shop securely. Developed with React and Bootstrap, the project offers a modern and responsive design.
 
-- Bir hoc oluşturulurken bunu self closing bir component şeklinde değilde bir Html tagi şeklinde oluştururuz.
+# 🚀 Features
 
-# Context
+🔍 Product Discovery & Filtering – Find products easily with fast search and smart filters. <br/>
+🛒 Cart & Secure Checkout – Add items effortlessly and enjoy a smooth shopping experience. <br/>
+📢 Real-Time Notifications – Get instant feedback with React Toastify. <br/>
+📱 Responsive Design – Perfect display on all devices.
 
-- Birden fazla bileşende verileri yönetmek istersek bunu props aktarımı ile yapabiliriz.Ama bu aktarım sırasında veri yönetimi bizim için zorlayıcı olacaktır.Çünkü props aktarımı parent elemanda chiled'a doğru gerçekleşir.Bu sebeple tüm verileri App.jsx'de tutup sonrasında alt bileşen -> alt bileşen şeklinde props geçmemiz gerekir.Bu noktada bu zorluğun üstesinden gelmek için Context yapısı kullanılır.Bu yapıda App dışarısında uygulamanın herhangi bir bileşenine bağlı olmayan context yapıları oluşturulur.
-  Context Yapısı Nasıl Oluşturulur ?
-  İlk olarak react içerisinden createContext adında bir metot çağırılır.Sonrasında bu yapı bir değişkene atanır.
+# 🛠️ Technologies Used
 
-- createContext'in atandığı yapı kullanılarak bir Hoc oluşturulur.Bu component'e context içerisinde kullanılacak değerler value={{}} içerisinde verilir.
+⚛️ React 19 – Dinamik ve etkili kullanıcı arayüzü <br/>
+🚀 React Router – Akıcı ve hızlı sayfa geçişleri <br/>
+🔗 Axios – API ile veri alma ve yönetme <br/>
+🎨 Bootstrap – Modern ve duyarlı tasarım <br/>
+🌟 React Icons – Estetik ve kullanıcı dostu ikonlar <br/>
+🔔 React Toastify – Anlık bildirim ve uyarı sistemi
 
-- Oluşturulan bu Hoc tüm uygulamayı(App) sarmalar.
-# Store-Project
-# Store-Project
+
+# 📸 Screenshot
+![ezgif com-crop](https://github.com/user-attachments/assets/b50dce37-c6c1-4af6-b32b-6c595de99efd)
+
+
+# 📧 Contact
+mervegecici8@gmail.com <br/>
+www.linkedin.com/in/mervenur-aydın
